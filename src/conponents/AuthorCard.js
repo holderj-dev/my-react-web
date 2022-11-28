@@ -18,7 +18,7 @@ export default function AuthorCard({isActive, setISActive}) {
       <div id="intro" class="bg-[#
             cad2c5] h-auto my-6 py-8 rounded-lg border-4">
         <div id="avatar" class="flex justify-center py-2">
-          <img class=" border p-2 rounded-lg border-[#52796f] bg-[#cad2c5] w-40 rounded-full" src="https://scontent.fmlw2-1.fna.fbcdn.net/v/t39.30808-6/309445590_177004951566542_4237086711968157105_n.jpg?stp=cp6_dst-jpg&_nc_cat=110&ccb=1-7&_nc_sid=09cbfe&_nc_eui2=AeHdUeaNbdu7k_dmrHYlogYYZkLy5gmc7edmQvLmCZzt5xh793xSEWu4yXCdBIIxSmC3kVGe-5RjJysRqqAHfEtw&_nc_ohc=7YnN9kl3nvcAX9ussUQ&_nc_zt=23&_nc_ht=scontent.fmlw2-1.fna&oh=00_AfBjM15O7WLMvC5QGOe2-3fqMvlFI93Wo2LG8fkQ8E3w7w&oe=637ECC67" alt="JB image" />
+          <img class=" border p-2 rounded-lg border-[#52796f] bg-[#cad2c5] w-40 rounded-full" src="https://scontent-bru2-1.xx.fbcdn.net/v/t39.30808-1/316539963_189092103691160_825830162012343278_n.jpg?stp=cp1_dst-jpg_p160x160&_nc_cat=110&ccb=1-7&_nc_sid=dbb9e7&_nc_ohc=rHk8jjK1gakAX8tEuR8&_nc_ht=scontent-bru2-1.xx&oh=00_AfBxTSMvX0gXx4AevxNGW29QUz88k_k3-_LBYYZ8peN7tA&oe=63892EEE" alt="JB image" />
         </div>
         <div id="content" class="prose lg:prose-xl px-2">
           <h1 class="text-center text-gray-800 text-4xl capitalize font-medium">James Esil. Holder</h1>
