@@ -7,7 +7,7 @@ export default function Navbar() {
   return (
     <>
       <div id="navbar">
-       <nav class="bg-[#a3b18a] shadow">
+        <nav class="bg-[#a3b18a] shadow">
           <div class="mx-auto max-w-7xl px-2 sm:px-6 lg:px-8">
             <div class="relative flex h-16 justify-between">
               <div class="absolute inset-y-0 left-0 flex items-center bg-[#52796f] sm:hidden">
@@ -70,7 +70,7 @@ export default function Navbar() {
                       text-gray-500
                       hover:border-gray-300 hover:text-gray-700
                     ">James Esil Holder</a>
-                    <a href="projects" class="
+                  <a href="projects" class="
                       inline-flex
                       items-center
                       border-b-2 border-transparent
@@ -103,6 +103,19 @@ export default function Navbar() {
                       text-gray-500
                       hover:border-gray-300 hover:text-gray-700
                     ">Contact</a>
+
+                  <a href="contacts" class="
+                      right-500
+                      items-center
+                      inline-flex
+                      border-b-2 border-transparent
+                      px-1
+                      pt-1
+                      text-sm
+                      font-medium
+                      text-gray-500
+                      hover:border-gray-300 hover:text-gray-700
+                    ">Sign In</a>
                 </div>
               </div>
               <div class="
@@ -123,7 +136,7 @@ export default function Navbar() {
             <div class="space-y-1 pt-2 pb-4">
 
               {/* <!-- Current: "bg-indigo-50 border-indigo-500 text-indigo-700", Default: "border-transparent text-gray-500 hover:bg-gray-50 hover:border-gray-300 hover:text-gray-700" --> */}
-             
+
               <a href="/projects" class="
                   block
                   border-l-4 border-indigo-500
