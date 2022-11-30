@@ -103,9 +103,21 @@ export default function Navbar() {
                       text-gray-500
                       hover:border-gray-300 hover:text-gray-700
                     ">Contact</a>
+                </div>
+              </div>
 
+              {/* sign in class */}
+              <div class="
+                  absolute
+                  inset-y-0
+                  right-50
+                  flex
+                  items-center
+                  pr-2
+                  sm:static sm:inset-auto sm:ml-6 sm:pr-0
+                  
+                ">
                   <a href="contacts" class="
-                      right-500
                       items-center
                       inline-flex
                       border-b-2 border-transparent
@@ -117,16 +129,6 @@ export default function Navbar() {
                       hover:border-gray-300 hover:text-gray-700
                     ">Sign In</a>
                 </div>
-              </div>
-              <div class="
-                  absolute
-                  inset-y-0
-                  right-0
-                  flex
-                  items-center
-                  pr-2
-                  sm:static sm:inset-auto sm:ml-6 sm:pr-0
-                "></div>
             </div>
           </div>
 
@@ -195,3 +197,8 @@ export default function Navbar() {
     </>
   );
 }
+
+
+
+
+// https://rishi.app/blog/how-to-build-your-own-likes-and-comments-system-with-firebase-and-react
