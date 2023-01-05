@@ -3,7 +3,6 @@ import ReactDOM from 'react-dom/client';
 import {
   createBrowserRouter,
   RouterProvider,
-  Route,
 } from "react-router-dom";
 import './index.css';
 import App from './App';
@@ -11,7 +10,7 @@ import reportWebVitals from './reportWebVitals';
 import { Projects} from './routes/projects';
 import { Contacts } from './routes/contacts';
 import { Blogs } from './routes/Blog';
-
+import SignIn from './routes/Signin';
 
 
 const router = createBrowserRouter([
@@ -31,8 +30,11 @@ const router = createBrowserRouter([
     path: "/blog",
     element: <Blogs/>
   },
-  
-  
+  {
+    path: "/account",
+    element: <SignIn/>
+  },
+
 ]);
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
