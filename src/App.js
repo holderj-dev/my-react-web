@@ -7,6 +7,7 @@ import WorkCard from "./conponents/WorkCard.js";
 import EducationalCard from "./conponents/EducationalCard.js";
 import HobbiesCard from "./conponents/HobbiesCard.js";
 
+
 function App() {
   const [isActive, setISActive] = useState({
     active: true,

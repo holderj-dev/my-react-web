@@ -1,5 +1,10 @@
 import React, { useState } from "react";
 import Navbar from "../conponents/Navbar";
+import {uid} from "uid";
+import { getDatabase, ref, set } from "firebase/database";
+
+
+
 
 
 export function Blogs() {
@@ -37,6 +42,8 @@ export function Blogs() {
 
         <>
             <Navbar />
+
+
 
             <div class=" overflow-hidden justify-items-center grid-rows-4  pb-8 mx-auto gap-4 w-25">
                 <ul className="flex items-center justify-center mx-4 gap-4">

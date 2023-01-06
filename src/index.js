@@ -7,40 +7,46 @@ import {
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
-import { Projects} from './routes/projects';
+import { Projects } from './routes/projects';
 import { Contacts } from './routes/contacts';
 import { Blogs } from './routes/Blog';
 import SignIn from './routes/Signin';
+import { AuthContextProvider } from './context/AuthContext';
 
 
 const router = createBrowserRouter([
-  {
-    path: "/",
-    element: <App/>,
-  },
-  {
-    path: "/projects",
-    element: <Projects/>,
-  },
-  {
-    path: "/contacts",
-    element: <Contacts/>
-  },
-  {
-    path: "/blog",
-    element: <Blogs/>
-  },
-  {
-    path: "/account",
-    element: <SignIn/>
-  },
+
+    {
+      path: "/",
+    element: <App />,
+    },
+    {
+      path: "/projects",
+    element: <Projects />,
+   },
+    {
+      path: "/contacts",
+    element: <Contacts />
+   },
+    {
+      path: "/blog",
+    element: <Blogs />
+   },
+    {
+      path: "/account",
+    element: <SignIn />
+   },
+
+  
 
 ]);
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-     <RouterProvider router={router} />
+    <AuthContextProvider>
+    <RouterProvider router={router} />
+    </AuthContextProvider>
   </React.StrictMode>
 );
 
