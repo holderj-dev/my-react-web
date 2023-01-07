@@ -69,7 +69,7 @@ export default function Navbar() {
                      text-black-500
                       hover:border-gray-300 hover:text-gray-700
                     ">Contact</a>
-                    <a href="account" class="
+                <a href="account" class="
                       inline-flex
                       items-center
                       border-b-2 border-transparent
@@ -80,9 +80,9 @@ export default function Navbar() {
                      text-black-500
                       hover:border-gray-300 hover:text-gray-700
                     ">Account</a>
-                   
-                    
-                
+
+
+
               </div>
             </div>
           </div>

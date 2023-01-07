@@ -11,33 +11,41 @@ import { Projects } from './routes/projects';
 import { Contacts } from './routes/contacts';
 import { Blogs } from './routes/Blog';
 import Account from './routes/accountPage';
+import { Picture } from './routes/popUp';
 import { AuthContextProvider } from './context/AuthContext';
+
+
+
 
 
 const router = createBrowserRouter([
 
-    {
-      path: "/",
+  {
+    path: "/",
     element: <App />,
-    },
-    {
-      path: "/projects",
+  },
+  {
+    path: "/projects",
     element: <Projects />,
-   },
-    {
-      path: "/contacts",
+  },
+  {
+    path: "/contacts",
     element: <Contacts />
-   },
-    {
-      path: "/blog",
+  },
+  {
+    path: "/blog",
     element: <Blogs />
-   },
-   {
+  },
+  {
     path: "/account",
-  element: <Account/>
- },
+    element: <Account />
+  },
+  {
+    path: "/profile",
+    element: <Picture/>
+  },
 
-  
+
 
 ]);
 
@@ -45,7 +53,7 @@ const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
     <AuthContextProvider>
-    <RouterProvider router={router} />
+      <RouterProvider router={router} />
     </AuthContextProvider>
   </React.StrictMode>
 );
