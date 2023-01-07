@@ -10,7 +10,7 @@ import reportWebVitals from './reportWebVitals';
 import { Projects } from './routes/projects';
 import { Contacts } from './routes/contacts';
 import { Blogs } from './routes/Blog';
-import SignIn from './routes/Signin';
+import Account from './routes/accountPage';
 import { AuthContextProvider } from './context/AuthContext';
 
 
@@ -32,10 +32,10 @@ const router = createBrowserRouter([
       path: "/blog",
     element: <Blogs />
    },
-    {
-      path: "/account",
-    element: <SignIn />
-   },
+   {
+    path: "/account",
+  element: <Account/>
+ },
 
   
 

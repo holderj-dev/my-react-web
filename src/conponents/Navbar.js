@@ -3,7 +3,11 @@ import React from "react";
 
 
 
+
 export default function Navbar() {
+
+
+
   return (
     <>
       <div id="navbar">
@@ -65,17 +69,20 @@ export default function Navbar() {
                      text-black-500
                       hover:border-gray-300 hover:text-gray-700
                     ">Contact</a>
-                <a href="account" class="
-                      items-center
+                    <a href="account" class="
                       inline-flex
+                      items-center
                       border-b-2 border-transparent
                       px-1
                       pt-1
-                      text-sm rounded
-                      font-medium
+                      text-sm
+                      font-medium rounded
                      text-black-500
                       hover:border-gray-300 hover:text-gray-700
-                    ">Sign In</a>
+                    ">Account</a>
+                   
+                    
+                
               </div>
             </div>
           </div>
