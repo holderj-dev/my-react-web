@@ -50,7 +50,7 @@ export default function Account() {
             <div className="bg-[#cad2c5] h-auto my-6 py-8 rounded-lg border-4">
 
                 <div id="avatar" class="flex justify-center py-2">
-                    <img class=" border p-2 rounded-lg border-[#52796f] bg-[#cad2c5] w-40 rounded-full" alt="user-image" src="myph.jpg" />
+                    <img class=" border p-2 rounded-lg border-[#52796f] bg-[#cad2c5] w-40 rounded-full" alt="user-image" src='https://api.multiavatar.com/NB.png' />
                 </div>
                 <div className="flex justify-center">
                     <h1 className="font-bold font-lg ">{user.displayName}</h1>
