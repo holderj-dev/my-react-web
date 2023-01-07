@@ -3,7 +3,9 @@ import Navbar from "../conponents/Navbar";
 import { UserAuth } from "../context/AuthContext";
 import { useEffect } from 'react'
 import GoogleButton from 'react-google-button'
-
+import { Navigate } from "react-router-dom";
+import { Route } from "react-router-dom";
+import { Blogs } from "./Blog";
 
 
 
@@ -50,10 +52,12 @@ export default function Account() {
             <div className="bg-[#cad2c5] h-auto my-6 py-8 rounded-lg border-4">
 
                 <div id="avatar" class="flex justify-center py-2">
-                    <img class=" border p-2 rounded-lg border-[#52796f] bg-[#cad2c5] w-40 rounded-full" alt="user-image" src='https://api.multiavatar.com/NB.png' />
+                    {user != null ? <img class=" border p-2 rounded-lg border-[#52796f] bg-[#cad2c5] w-40 rounded-full" alt="user-image" src={user.picture} />
+                        : ""
+                    }
                 </div>
                 <div className="flex justify-center">
-                    <h1 className="font-bold font-lg ">{user.displayName}</h1>
+                    <h1 className="font-bold font-lg ">{user != null ? user.displayName : ''}</h1>
                 </div>
 
                 <div className="flex justify-center border-10 border-radius-5">
