@@ -70,7 +70,7 @@ export default function Account() {
     }
 
     const handleSubmit = () => {
-        const imageRef = ref(storage, "image");
+        const imageRef = ref(storage, 'user/' + auth.user.uid + '/Profile.png');
         uploadBytes(imageRef, image).then(() => {
             getDownloadURL(image)
                 .than((url) => {
