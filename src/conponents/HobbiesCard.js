@@ -3,7 +3,7 @@ import React from "react";
 export default function HobbiesCard(){
     return(
         <>
-          <div id="hobbies" class="bg-[#cad2c5] h-50 my-6 py-8 rounded-lg border-4">
+          <div id="hobbies" class="#d1f3f3 h-50 my-6 py-8 rounded-lg border-4">
           <div class="flex justify-center">
                 <h3 class="border-4 w-25   border p-2 rounded-lg border-[#B2B2B2] bg-[#dad7cd]">Hobbies 🥉</h3>
               </div>

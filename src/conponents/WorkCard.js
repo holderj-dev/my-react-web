@@ -3,7 +3,7 @@ import React from "react";
 export default function WorkCard() {
   return (
     <>
-      <div id="work" class="bg-[#cad2c5] h-auto my-6 py-8 rounded-lg border-4">
+      <div id="work" class="#d1f3f3 h-auto my-6 py-8 rounded-lg border-4">
         <div class="flex justify-center">
           <h3 class="border-4 w-25   border p-2 rounded-lg border-[#B2B2B2] bg-[#dad7cd]">Work 👨‍⚖️</h3>
         </div>

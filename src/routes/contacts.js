@@ -8,6 +8,7 @@ export function Contacts() {
     <>
       <Navbar />
 
+      
       <div class=''>
         {/* <!-- component --> */}
         <link rel="stylesheet" href="https://cdn.tailgrids.com/tailgrids-fallback.css" />
@@ -33,7 +34,7 @@ export function Contacts() {
                   xl:text-[40px]
                   "
                   >
-                    GET IN TOUCH WITH JayE
+                   Contact Form is still under development
                   </h2>
                   <p class="text-base text-body-color leading-relaxed mb-9">
                     Hi!!, Thanks For Your Reaching Out To Me, Your Messages Are Of High Value To Me, So Kindly Stay Tuned For A Reply.

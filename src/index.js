@@ -11,7 +11,6 @@ import { Projects } from './routes/projects';
 import { Contacts } from './routes/contacts';
 import { Blogs } from './routes/Blog';
 import Account from './routes/accountPage';
-import { Picture } from './routes/popUp';
 import { AuthContextProvider } from './context/AuthContext';
 
 
@@ -40,13 +39,7 @@ const router = createBrowserRouter([
     path: "/account",
     element: <Account />
   },
-  {
-    path: "/profile",
-    element: <Picture/>
-  },
-
-
-
+  
 ]);
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
